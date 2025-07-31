@@ -1,0 +1,22 @@
+# AI を活用する教育者が、活用しない教育者に取って代わる | 教育 – ガルフ ニュース
+
+作成日: 2025-05-19 19:19:26
+
+## プロパティ
+
+- リンク: https://gulfnews.com/uae/education/gulf-news-edufair-2024-educators-who-use-ai-will-replace-those-who-dont-1.1728108275002
+
+   Tarun Gangwar (centre), COO of Tetr College of Business, and Dr Sujala D. Shetty (right), Associate Professor and Head of Computer Science at BITS Pilani Dubai, with moderator Lachlan Kitchen### Also in this package
+-  Over 1,500 students attend Gulf News Edufair on Day 1 
+-  Gulf News Edufair 2024 October Edition: Day 1 in pictures 
+-  Gulf News Edufair gets under way today with 50+ universities 
+-  Gulf News Edufair: 'No magic formula to get into top universities' 
+-  E33 will redefine the future of learning in Dubai: Dr Eesa Al Bastki 
+The integration of AI into education promotes personalised learning and critical thinking but it wouldn’t replace human educators, said experts during a panel discussion on AI Chatbots in Education – Smart Tools or Just a Distraction on the first day of the October edition of Gulf News Edufair 2024. Tarun Gangwar, COO of Tetr College of Business, and Dr Sujala D. Shetty, Associate Professor and Head of Computer Science at BITS Pilani Dubai, emphasised that human connection, empathy and trust are irreplaceable in education.What AI can definitely do is tailor educational content to meet the individual needs of students in ways educators cannot. “It's impossible to use 60 different examples for 60 different students in a class, but a AI chatbot can teach the concept of ROI to a product manager and it can use a very different context to somebody who aspires to be in marketing,” explained Gangwar.Acknowledging the capability of chatbots to adapt to students’ varying levels of understanding and cater to them, Dr Shetty highlighted the need for a shift in mindset in both faculty and students to harness AI tools effectively. “If you look at a syntax of a programming language, be it Java or Python, it is impossible for a student to remember everything. So we tell students to make it a habit to refer to online resources so that they have the ability to use something that is already there and quickly come up with solutions for problems. Even professional coders will always have a Co Pilot to help them with recommendations. It's not about regenerating the same code over and over again, but using them in an optimal manner.”Fears of AI chatbots replacing traditional methods of teaching critical thinking and problem-solving are misplaced, said Gangwar. If anything, AI empowers critical thinking by providing easy access to information, allowing students to focus on processing and forming opinions.“It's like having a very intellectual brainstorming partner who’s more informed than you. And now you are able to process that information, reflect on it, and form an opinion, which is not what AI can do for you,” he said. “This actually enhances your ability to think critically.”However, foundational knowledge and the ability to judge and evaluate information are critical for students, said Dr Shetty, striking a note of caution against relying too heavily on AI. “Many of the large language models tend to hallucinate - if they don't really have data about something they could produce something fictional, imaginary. So issues such as hallucinations and bias are grave concerns.”While training programmes and support frameworks are necessary to ensure both faculty and students can effectively use AI tools, panellists agreed that it was imperative to balance AI tools with traditional education to maintain academic integrity and that educators are here to stay.“The job of an educator is not to just give information, ask questions or give assignments,” said Gangwar. “The role has a lot more to do with giving students support, motivation and guidance. It’s about human connection, empathy and trust. I don't think AI will take away the job of educators - educators who use AI will replace the ones who don't.”Sign up for the Daily BriefingGet the latest news and updates straight to your inbox.この記事は、Gulf News Edufair 2024の初日に行われたAIチャットボットと教育に関するパネルディスカッションの内容を要約しています。主なポイントは以下の通りです：- AIの教育への統合は個別学習と批判的思考を促進するが、人間の教育者に取って代わることはない。
+- AIは個々の学生のニーズに合わせて教育コンテンツをカスタマイズできる。
+- 教員と学生の両方がAIツールを効果的に活用するためには、マインドセットの変化が必要。
+- AIは情報へのアクセスを容易にし、学生が情報処理と意見形成に集中できるようにすることで、批判的思考を強化する。
+- AIに過度に依存することへの警告として、基礎知識と情報を判断・評価する能力が重要。
+- AIツールと従来の教育のバランスを取り、学問の誠実性を維持することが重要。
+- AIを活用する教育者が、活用しない教育者に取って代わる可能性がある。
+結論として、AIは教育を補完し強化するツールであり、人間の教育者の役割（支援、動機付け、指導）は依然として重要であることが強調されています。

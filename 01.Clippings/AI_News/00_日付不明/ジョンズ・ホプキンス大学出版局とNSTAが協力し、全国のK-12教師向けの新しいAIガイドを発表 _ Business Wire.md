@@ -1,0 +1,12 @@
+# ジョンズ・ホプキンス大学出版局とNSTAが協力し、全国のK-12教師向けの新しいAIガイドを発表 | Business Wire
+
+作成日: 2025-05-19 19:18:01
+
+## プロパティ
+
+- 日付: 2024-11-19
+- リンク: https://www.businesswire.com/news/home/20241118277372/en/Johns-Hopkins-University-Press-and-NSTA-Team-Up-to-Release-New-AI-Guide-for-K%E2%80%9312-Teachers-Nationwide
+
+![image_20250519_191801.png](../assets/image_20250519_191801.png)
+MCLEAN, Va.--(Launching next week, “Partnering with NSTA on this project means that more K-12 science teachers will be aware of and use this guidebook to enhance teaching and learning in a world where AI is available to everyone. Teachers will now have a reference to help them embrace the benefits of generative AI while also navigating the challenges surrounding this new technology,” said Barbara Kline Pope, executive director of Hopkins Press.AI is already creating seismic changes in schools and the workplace. In the age of AI, critical-thinking skills and information literacy are more important than ever. As AI continues to reshape the nature of human thinking and learning, educators must develop and promote AI literacy to equip students with the skills they need to thrive in a rapidly evolving world.“AI has the potential to be a real game changer for educators, but its effectiveness relies on educators’ ability to know how to use this powerful tool properly to address their teaching needs,” said Cathy Iammartino, Chief Product Officer at NSTA. “Written by Joan Monahan Watson, a director in the Department of Computer Science at Virginia Tech, with José Antonio Bowen, former president of Goucher College, and C. Edward Watson, Associate Vice President for Curricular and Pedagogical Innovation at the American Association of Colleges and Universities, Next March, For additional information or to purchase About NSTAThe About Hopkins PressWith critically acclaimed titles in history, science, higher education, health and wellness, humanities, classics, and public health, Hopkins Press publishes 125 new books each year and maintains a backlist in excess of 3,000 titles. With warehouses on three continents, worldwide sales representation, and a robust digital publishing program, we connect Hopkins authors to scholars, experts, and educational and research institutions around the world. For more information, visit ## Contacts
+Kate Falk, NSTA(703) 312-9211kfalk@nsta.orgAlison Mailloux, Hopkins Press(617) 655-3371alisonmailloux@jhu.edu

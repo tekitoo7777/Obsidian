@@ -1,0 +1,12 @@
+# アリゾナの学校が 2 時間の AI 駆動型学習モデルを導入 | ニュース | kvoa.com
+
+作成日: 2025-05-19 19:15:45
+
+## プロパティ
+
+- 日付: 2025-01-06
+- リンク: https://www.kvoa.com/news/arizona-school-to-introduce-2-hour-ai-driven-learning-model/article_484b84ba-ca21-11ef-ad74-27be0977f436.html
+
+![image_20250519_191545.png](../assets/image_20250519_191545.png)
+![image_20250519_191546.png](../assets/image_20250519_191546.png)
+AI SchoolTUCSON, Ariz. (KVOA) – A new education model will soon make its debut in Arizona.It’ll blend traditional learning with the power of artificial intelligence.The innovative approach is being introduced through Unbound Academy, the latest virtual school to gain approval from the Arizona School Board.Students enrolled in the virtual Unbound Academy will attend a typical six-hour virtual school day.However, the structure takes an innovative approach of time, with two hours dedicated exclusively to academic learning powered by artificial intelligence applications, while the remaining four hours focus on developing essential life skills.Importantly, the school is staffed with real educators who act as academic guides, offering personalized support to students.Co-founder Mackenzie Price emphasized the role of AI in enhancing education, stating, “We’re really using artificial intelligence to raise human intelligence. It provides personalized learning while allowing our teachers to do what they do best—personally connect with each of their students.”The concept has sparked a mix of excitement and skepticism among locals.Some community members see the model as a game-changer.Bob Gottfried, a Tucson resident, praised the integration of AI, saying, “AI is a good thing. You’ve got people and computers working together. Computers remember things people don’t, so it’s a great tool.”However, others are more cautious.Former educator Norma Sholl expressed concerns, noting, “There are already so many things interfering with a good education, and I don’t think kids need more of this kind of stuff.”Despite differing opinions, the Two Hour Learning team is optimistic about their vision.“We’re excited to offer Arizona families a new option and look forward to what’s to come,” Price added.For more information on the new virtual school 

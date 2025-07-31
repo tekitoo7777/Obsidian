@@ -1,0 +1,11 @@
+# トランプ大統領、AIを授業に組み込む大統領令に署名
+
+作成日: 2025-05-19 19:13:02
+
+## プロパティ
+
+- AIによる要約: トランプ大統領は、AIをアメリカの教室に組み込む大統領令に署名し、学校が民間企業と協力してAI教育を推進することを目指しています。教育長官は、教師や管理者のAI活用のための訓練に連邦資金を優先的に配分するよう指示されます。AI教育タスクフォースも設立され、学生に基礎的なAIリテラシーと批判的思考スキルを教えることが目指されています。
+- 日付: 2025-04-25
+- リンク: https://thehill.com/homenews/education/5263899-trump-signs-executive-order-incorporating-ai-into-classrooms/
+
+President Trump signs an executive order about artificial intelligence, in the Oval Office of the White House on Jan. 23, 2025, in Washington.President Trump signed an executive order on Wednesday that aims to incorporate artificial intelligence (AI) into America’s classrooms.“The basic idea of this executive order is to ensure that we properly train the workforce of the future by ensuring that school children, young Americans, are adequately trained in AI tools, so that they can be competitive in the economy years from now into the future, as AI becomes a bigger and bigger deal,” said Will Scharf, White House staff secretary.Although the exact text of the order has not been released, The Washington Post reported on a pre-decisional draft that said the president wants schools to partner with the private sector to implement the technology into school programs.The order would instruct Education Secretary “AI is where it seems to be at,” Trump said during the signing.An AI education task force would be created to encourage federal agencies to partner with the private sector with the goal of teaching students “foundational AI literacy and critical thinking skills,” according to the Post.AI has taken classrooms by storm over the last few years, with both benefits and risks to educators and students.Schools have already begun partnering with organizations to teach educators and students how to use AI responsibly.Downsides to the technology include concerns of Trump also signed an executive order in January taking away some regulations from the AI industry and investing in AI data centers.—Updated at 5:39 p.m. EDTCopyright 2025 Nexstar Media Inc. All rights reserved. This material may not be published, broadcast, rewritten, or redistributed.

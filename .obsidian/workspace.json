@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "28afbb417fe7fac4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c6702fcda0e251c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c6fe10ef3c56a6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02.Index/デイリーノートテンプレ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "デイリーノートテンプレ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f55ece240429ad63",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b43a3d9d8415308",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "399569c2f9b904bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "72aebd4252e5e043",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "971ad22758bc4175",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1c500627bc8e030",
+    "type": "split",
+    "children": [
+      {
+        "id": "eddb797564f8094e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "214396b7771c46b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02.Index/2025/07/26.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "26へのバックリンク"
+            }
+          },
+          {
+            "id": "e9223b0306580b7a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02.Index/2025/07/26.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "26からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "d96fc7ff6de60e8d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "c50ebbee03d45ddf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
+            }
+          },
+          {
+            "id": "5cccdd1abeadf558",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02.Index/デイリーノートテンプレ.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "デイリーノートテンプレのアウトライン"
+            }
+          },
+          {
+            "id": "af44069df5ccda6f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false
+    }
+  },
+  "active": "9c6fe10ef3c56a6c",
+  "lastOpenFiles": [
+    "03.Fleetings/毎月の振り返り/7月振り返り/README.md",
+    "03.Fleetings/毎月の振り返り/7月振り返り/2025年8月具体的行動プラン.md",
+    "03.Fleetings/毎月の振り返り/7月振り返り/2025年7月詳細データ分析.md",
+    "03.Fleetings/毎月の振り返り/7月振り返り/2025年7月振り返り_メイン.md",
+    "03.Fleetings/毎月の振り返り/7月振り返り",
+    "02.Index/2025/07/31.md",
+    "02.Index/2025/07/2025-07-30.md",
+    "02.Index/デイリーノートテンプレ.md",
+    "01.Clippings/AI_News/00_日付不明/👩‍🏫 AI 教育ツール Khanmigo が米国のすべての教師に無料提供開始.md",
+    "01.Clippings/AI_News/00_日付不明/｢人のせいにする子ども｣大量に生んだ日本の教育 工藤勇一×西岡壱誠｢教育の役割｣対談【前編】 _ 学校・受験 _ 東洋経済オンライン.md",
+    "01.Clippings/AI_News/00_日付不明/｢中高生がAI悪用で750万｣知らなかった親の_罪_ いまや子どもたちは高度な罪を犯す可能性がある(東洋経済オンライン) - goo ニュース.md",
+    "01.Clippings/AI_News/00_日付不明/｢カリフォルニア､AI学習データの開示義務化｣など解説3本 - 日経デジタルガバナンス.md",
+    "01.Clippings/AI_News/00_日付不明/～「おたすけ学校AI」、さいたま市に実証導入開始～ 教育の未来を生成AIで切りひらく、さいたま市の挑戦 _ 株式会社教育ネットのプレスリリース.md",
+    "01.Clippings/AI_News/00_日付不明/［リポート’２４　与那原発］ＡＩ活用　教員の負担減　中学校に採点支援システム　指導改善　生徒の復習にも活用 _ 沖縄タイムス＋プラス.md",
+    "01.Clippings/AI_News/00_日付不明/ＡＩ規制法案にカリフォルニア州知事が拒否権－最善策でないと指摘 - Bloomberg.md",
+    "01.Clippings/AI_News/00_日付不明/１０分AI紹介.md",
+    "01.Clippings/AI_News/00_日付不明/黒板からチャットボットへ：アフリカの教室におけるAIを活用した学習の将来性.md",
+    "01.Clippings/AI_News/00_日付不明/黒板からチャットボットへ - The Hindu.md",
+    "01.Clippings/AI_News/00_日付不明/高校生が部活動でＡＩ学ぶ　教科書を要約するアプリ開発　ＡＩ甲子園も開催　 _ TBS NEWS DIG (1ページ).md",
+    "01.Clippings/AI_News/00_日付不明/駿台出資のatama plus、AI教材で「講師が教えない塾」を100カ所へ：日経ビジネス電子版.md",
+    "01.Clippings/AI_News/00_日付不明/馬田隆明-解像度を上げる――曖昧な思考を明晰にする「深さ・広さ・構造・時間」の４視点と行動法.md",
+    "01.Clippings/AI_News/00_日付不明/首マッサージ.md",
+    "01.Clippings/AI_News/00_日付不明/音部大輔-君は戦略を立てることができるか 視点と考え方を実感する４時間.md",
+    "01.Clippings/AI_News/00_日付不明/音楽生成.md",
+    "01.Clippings/AI_News/00_日付不明/韓国が2025年にAI教科書を導入、大手企業はEdtechビジネスの拡大とインド進出 _ 日経クロステック（xTECH）.md",
+    "01.Clippings/AI_News/00_日付不明/電通、生成AIで子どもたちの空想をビジュアル化するイベント「AI LOVE YOU展」を開催―無限の空想力を引き出す.md",
+    "01.Clippings/AI_News/00_日付不明/隆将-ＳＩＭＰＬＥ　ＲＵＬＥＳ　「仕事が速い人」はここまでシンプルに考える 三笠書房　電子書籍.md",
+    "01.Clippings/AI_News/00_日付不明",
+    "01.Clippings/AI_News/GoogleChrome",
+    "Vault/01.Clippings/AI_News",
+    "Vault/01.Clippings",
+    "Vault",
+    "01.Clippings/AI_News/2025-07",
+    "Vault/01.Clippings/AI_News/GoogleChrome",
+    "Users/tekitoo/Cursor/Obsirian_Vault/ObsidianVault/Vault/01.Clippings/AI_News/GoogleChrome",
+    "Users/tekitoo/Cursor/Obsirian_Vault/ObsidianVault/Vault/01.Clippings/AI_News",
+    "Clippings/assets/image_20250519_192624.png",
+    "Clippings/assets/image_20250519_192615.png",
+    "Clippings/assets/image_20250519_192614.png",
+    "Clippings/assets/image_20250519_192602.png",
+    "Clippings/assets/image_20250519_192601.png",
+    "Clippings/assets/image_20250519_192557.png",
+    "Clippings/assets/image_20250519_192548.png",
+    "Clippings/assets/image_20250519_192547.png",
+    "Clippings/assets/image_20250519_192539.png",
+    "Clippings/assets/image_20250519_192524.png"
+  ]
+}
