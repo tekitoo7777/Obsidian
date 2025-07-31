@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02.Index/デイリーノートテンプレ.md",
+                "file": "02.Index/2025/07/31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "デイリーノートテンプレ"
+              "title": "31"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02.Index/デイリーノートテンプレ.md",
+                "file": "02.Index/2025/07/31.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "デイリーノートテンプレのアウトライン"
+              "title": "31のアウトライン"
             }
           },
           {
@@ -190,16 +190,16 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "5cccdd1abeadf558",
+  "active": "9c6fe10ef3c56a6c",
   "lastOpenFiles": [
+    "02.Index/2025/07/30.md",
+    "02.Index/デイリーノートテンプレ.md",
     "03.Fleetings/毎月の振り返り/7月振り返り/README.md",
     "03.Fleetings/毎月の振り返り/7月振り返り/2025年8月具体的行動プラン.md",
     "03.Fleetings/毎月の振り返り/7月振り返り/2025年7月詳細データ分析.md",
     "03.Fleetings/毎月の振り返り/7月振り返り/2025年7月振り返り_メイン.md",
     "03.Fleetings/毎月の振り返り/7月振り返り",
     "02.Index/2025/07/31.md",
-    "02.Index/2025/07/2025-07-30.md",
-    "02.Index/デイリーノートテンプレ.md",
     "01.Clippings/AI_News/00_日付不明/👩‍🏫 AI 教育ツール Khanmigo が米国のすべての教師に無料提供開始.md",
     "01.Clippings/AI_News/00_日付不明/｢人のせいにする子ども｣大量に生んだ日本の教育 工藤勇一×西岡壱誠｢教育の役割｣対談【前編】 _ 学校・受験 _ 東洋経済オンライン.md",
     "01.Clippings/AI_News/00_日付不明/｢中高生がAI悪用で750万｣知らなかった親の_罪_ いまや子どもたちは高度な罪を犯す可能性がある(東洋経済オンライン) - goo ニュース.md",
