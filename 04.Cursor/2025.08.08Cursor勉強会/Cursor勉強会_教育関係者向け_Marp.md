@@ -235,7 +235,7 @@ section.lead p {
 
 # 📁 基本的な画面構成
 
-（スクリーンショットを貼る予定）
+![Cursor画面構成](./images/CleanShot%202025-08-07%20at%2012.06.54@2x.png)
 
 ---
 
@@ -244,8 +244,6 @@ section.lead p {
 ## 便利なプラグイン
 - **Gemini Code Assist**: AIによるコード補完
 - **Claude Code**: AIによるコード生成・修正
-- **HTML Preview**: リアルタイムプレビュー
-- **Markdown All in One**: マークダウン編集支援
 - **Japanese Language Pack**: 日本語化
 
 ---
@@ -267,7 +265,7 @@ section.lead p {
 
 ---
 
-# 📊 実践例1：デスクトップ自動整理システム
+# 📊 実践例1：デスクトップ整理
 
 ## 課題
 デスクトップがファイルで溢れかえっている
@@ -285,7 +283,7 @@ Cursorで自動整理システムを開発
 # 📰 実践例2：教育アプリ・教材開発
 
 ## 課題
-プログラミング未経験で教育アプリが作れない
+教育アプリを作りたい
 
 ## 解決策
 CursorとClaudeでアプリ開発
@@ -297,10 +295,10 @@ CursorとClaudeでアプリ開発
 
 ---
 
-# 📐 実践例3：業務自動化
+# 📐 実践例3：QOLアップ
 
 ## 課題
-日常業務の効率化が必要
+日々の日記の振り返りの充実。インプット・アウトプットの質と量をアップ
 
 ## 解決策
 Cursorで業務自動化システムを構築
@@ -312,20 +310,11 @@ Cursorで業務自動化システムを構築
 
 ---
 
-## 始め方のコツ
-
-1. **小さく始める**: 簡単なHTMLから
-2. **日常の課題を見つける**: 「これを自動化できたら...」
-3. **AIに質問する**: わからないことは素直に聞く
-4. **継続する**: 少しずつでも毎日触れる
-
----
-
 # 📞 お問い合わせ
 
 **テキトー教師**
 - Twitter: [@tekitoo_t_cher](https://mobile.twitter.com/tekitoo_t_cher)
 - Note: [tekitooooo](https://note.com/tekitooooo)
-- Discord: [AIを使ってゆとりを取り戻す！](https://discord.gg/tz46vssx)
+- Discord: [AIを使ってゆとりを取り戻す！](https://discord.gg/WtvrgkU8)
 
 **ご質問・ご相談お待ちしています！**
