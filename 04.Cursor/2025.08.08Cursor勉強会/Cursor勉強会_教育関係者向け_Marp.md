@@ -1,13 +1,164 @@
 ---
 marp: true
-theme: default
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+# ↓↓↓ これらの行はテンプレートが機能するために必要です ↓↓↓
+header: ' '
+footer: ' '
 ---
 
-# 🎓 Cursor勉強会
-## 教育関係者のためのAI駆動開発入門
+<style>
+/* Google Fontsから日本語フォントを読み込み */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+/* --- 色やフォントの基本設定 --- */
+:root {
+  --color-background: #f8f8f4;
+  --color-foreground: #3a3b5a;
+  --color-heading: #4f86c6;
+  --color-hr: #000000;
+  --font-default: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+}
+
+/* --- スライド全体のスタイル --- */
+section {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-default);
+  font-weight: 400;
+  box-sizing: border-box;
+  border-bottom: 8px solid var(--color-hr);
+  position: relative;
+  line-height: 1.7;
+  font-size: 22px;
+  padding: 56px;
+}
+section:last-of-type {
+  border-bottom: none;
+}
+
+/* --- 見出しのスタイル --- */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--color-heading);
+  margin: 0;
+  padding: 0;
+}
+
+/* タイトルページ(h1)のスタイル */
+h1 {
+  font-size: 56px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* 通常スライドのタイトル(##) */
+h2 {
+  position: absolute;
+  top: 40px;
+  left: 56px;
+  right: 56px;
+  font-size: 40px;
+  padding-top: 0;
+  padding-bottom: 16px;
+}
+
+/* h2の疑似要素(::after)を使って、短い線を実装 */
+h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-hr);
+}
+
+/* h2と後続コンテンツの間のスペースを確保 */
+h2 + * {
+  margin-top: 112px;
+}
+
+/* サブ見出し (例: 目的, 目標) */
+h3 {
+  color: var(--color-foreground);
+  font-size: 28px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+/* --- リストのスタイル --- */
+ul, ol {
+  padding-left: 32px;
+}
+li {
+  margin-bottom: 10px;
+}
+
+/* フッターとして機能する、太い青いラインを実装 */
+footer {
+  font-size: 0;
+  color: transparent;
+  position: absolute;
+  left: 56px;
+  right: 56px;
+  bottom: 40px;
+  height: 8px;
+  background-color: var(--color-heading);
+}
+
+/* ★★★ ロゴの配置方法を、calc()を使った最も堅牢な方法に変更 ★★★ */
+header {
+  font-size: 0;
+  color: transparent;
+  background-image: url('ロゴ.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  
+  position: absolute;
+  top: 40px;
+  
+  /* rightプロパティの代わりに、calc()で左からの位置を計算して配置を安定させます */
+  /* 計算式: (コンテナの幅 - ロゴの幅 - 右の余白) */
+  left: calc(100% - 180px - 56px);
+  
+  /*
+    【重要】下のwidthの値を変更した場合、
+    上のcalc()内の「180px」も同じ値にしてください。
+  */
+  width: 180px;
+  height: 50px;
+}
+
+/* --- 特別なクラス --- */
+section.lead {
+  border-bottom: 8px solid var(--color-hr);
+}
+
+/* タイトルページではフッターラインとロゴ(header)を非表示にする */
+section.lead footer,
+section.lead header {
+  display: none;
+}
+
+section.lead h1 {
+  margin-bottom: 24px;
+}
+section.lead p {
+  font-size: 24px;
+  color: var(--color-foreground);
+}
+
+/* ガイドライン用のスタイル */
+.bad-example {
+  background-color: #fbe9e7;
+  color: #c62828;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+</style>
+
+# Cursor勉強会
+# 教育関係者のためのAI駆動開発入門
 
 **テキトー教師**  
 *2025年8月*
@@ -28,13 +179,15 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 ## AI搭載の次世代コードエディタ
 
-- **開発元**: Cursor Inc.
-- **特徴**: AIによる文脈理解とコード生成
+- **開発元**: Anysphere（エニスフィア）
+- **特徴**: ①Composerモード：コードの生成やリファクタリングを効率的に行うモードです。
+- 　　　　　 ②Agentモード：タスクの自動化やコマンドの実行を支援します。
+- 　　　　　 ③ドキュメント参照：外部ドキュメントを参照しながら開発を進められます。
+- 　　　　 　④プライバシーモード：コードがクラウドに送信されない設定が可能で、セキュリティを確保します。
 - **価格**: 学生は1年間**無料**
+- 　　　　　 無料プラン：GPT-3.5を月200回まで、GPT-4を50回まで利用可能。
+-          Proプラン（$20/月）：GPT-4を月500回まで高速で利用可能。
 - **対応**: Windows, macOS, Linux
-
----
-
 
 ---
 
@@ -44,8 +197,8 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ✅ **教材作成の効率化**  
 ✅ **業務自動化の実現**
 　フォルダ管理や文章生成
-✅ 日記の管理など
-
+✅ **個人のQOLアップ**
+　インプット・アウトプットの質、量ともにUP
 ---
 
 # 🛠️ Cursorの始め方
@@ -63,7 +216,6 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 ## アカウント作成
 - メールアドレスでサインアップ
-- 学生は無料プランで利用可能
 
 ## 日本語設定
 - `Ctrl/Cmd + Shift + P`でコマンドパレット
@@ -92,10 +244,14 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ## 便利なプラグイン
 - **Gemini Code Assist**: AIによるコード補完
 - **Claude Code**: AIによるコード生成・修正
-# 🌐 日本語対応プラグイン
+- **HTML Preview**: リアルタイムプレビュー
+- **Markdown All in One**: マークダウン編集支援
 - **Japanese Language Pack**: 日本語化
 
-## インストール方法
+---
+
+## プラグインのインストール方法
+
 1. `Ctrl/Cmd + Shift + X`で拡張機能を開く
 2. プラグイン名を検索
 3. 「Install」をクリック
@@ -153,6 +309,16 @@ Cursorで業務自動化システムを構築
 - 日記管理のシステム化
 
 **参考記事**: [業務自動化の実践例](https://note.com/tekitooooo/n/na131a8c3fb79)
+
+---
+
+## 始め方のコツ
+
+1. **小さく始める**: 簡単なHTMLから
+2. **日常の課題を見つける**: 「これを自動化できたら...」
+3. **AIに質問する**: わからないことは素直に聞く
+4. **継続する**: 少しずつでも毎日触れる
+
 ---
 
 # 📞 お問い合わせ
