@@ -249,80 +249,183 @@ AIが生成したコードを確認：
 - [ ] エラー時の処理があるか
 - [ ] 日本語コメントが含まれているか
 
-// Express サーバー（n8nからの返信受信用）
-const app = express();
-app.use(express.json());
+---
 
-// n8nから整形後の投稿文を受け取る
-app.post('/draft-post', async (req, res) => {
-  const { channelId, draftContent } = req.body;
-  if (!channelId || !draftContent) return res.sendStatus(400);
+## 🚀 STEP 3: GitHubにコードをアップロード
 
-  try {
-    const channel = await client.channels.fetch(channelId);
-    
-    // 生成された投稿文をコードブロックで送信
-    await channel.send(`\`\`\`\n${draftContent}\n\`\`\``);
-    
-    res.sendStatus(200);
-  } catch (error) {
-    console.error('Error sending final message:', error);
-    res.sendStatus(500);
-  }
-});
+### 3-1. GitHubリポジトリの作成
 
-// サーバー起動
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`HTTP server listening on port ${PORT}`));
+Botを24時間稼働させるため、まずGitHubにコードをアップロードします。
 
-client.login(process.env.DISCORD_BOT_TOKEN);
+![GitHubリポジトリ作成](画像を挿入予定)
+
+1. **[GitHub](https://github.com)にログイン**
+2. **右上の「+」→「New repository」をクリック**
+3. **リポジトリの設定：**
+   ```
+   Repository name: discord-n8n-bot
+   Public/Private: Private（推奨）
+   Initialize with: 何もチェックしない
+   ```
+4. **「Create repository」をクリック**
+
+### 3-2. ローカルからGitHubへプッシュ
+
+#### 1️⃣ `.gitignore`ファイルを作成
+```bash
+# .gitignoreファイルを作成
+echo "node_modules/" > .gitignore
+echo ".env" >> .gitignore
+echo ".DS_Store" >> .gitignore
 ```
 
-#### `.env`（環境変数ファイル）
+**重要：`.env`ファイルは絶対にGitHubにアップロードしないでください！**
+
+#### 2️⃣ Gitの初期化とコミット
 ```bash
-# Discord Bot Token（先ほど取得したトークン）
-DISCORD_BOT_TOKEN=your_discord_bot_token_here
+# Gitを初期化
+git init
 
-# n8n Webhook URLs（後で設定）
-N8N_WEBHOOK_URL=https://your-n8n-instance.app/webhook-test/discord-reaction
-N8N_X_POST_WEBHOOK_URL=https://your-n8n-instance.app/webhook/x-post
+# すべてのファイルをステージング
+git add .
 
-# 環境設定
+# 初回コミット
+git commit -m "Initial Discord bot setup"
+```
+
+#### 3️⃣ GitHubにプッシュ
+```bash
+# GitHubのリモートリポジトリを追加（YOUR_USERNAMEを自分のユーザー名に変更）
+git remote add origin https://github.com/YOUR_USERNAME/discord-n8n-bot.git
+
+# mainブランチにプッシュ
+git branch -M main
+git push -u origin main
+```
+
+### 3-3. プッシュ確認
+
+GitHubのリポジトリページをリロードして、以下のファイルがアップロードされていることを確認：
+- ✅ `package.json`
+- ✅ `index.js`
+- ✅ `.gitignore`
+- ❌ `.env`（これは表示されないのが正しい）
+- ❌ `node_modules/`（これも表示されないのが正しい）
+
+---
+
+## 🌐 STEP 4: Railwayで24時間稼働設定
+
+### 4-1. Railwayアカウント作成
+
+Railwayを使うと、自分のPCを閉じていてもBotが24時間365日動き続けます！
+
+![Railway初期画面](画像を挿入予定)
+
+1. **[Railway.app](https://railway.app)にアクセス**
+2. **「Login with GitHub」をクリック**（GitHubアカウントでログイン）
+3. **GitHubの認証を許可**
+
+### 4-2. GitHubリポジトリと連携してデプロイ
+
+![Railway新規プロジェクト](画像を挿入予定)
+
+1. **「New Project」をクリック**
+2. **「Deploy from GitHub repo」を選択**
+3. **「Configure GitHub App」をクリック**
+   - 先ほど作成した`discord-n8n-bot`リポジトリへのアクセスを許可
+4. **リポジトリ一覧から`discord-n8n-bot`を選択**
+5. **「Deploy Now」をクリック**
+
+これで自動的にデプロイが開始されます！
+
+### 4-3. 環境変数の設定（超重要！）
+
+![Railway環境変数設定](画像を挿入予定)
+
+**GitHubには機密情報を載せないため、Railwayで環境変数を設定します。**
+
+1. **デプロイされたプロジェクトをクリック**
+2. **「Variables」タブを選択**
+3. **「+ New Variable」または「RAW Editor」をクリック**
+4. **以下の環境変数を追加：**
+
+```
+DISCORD_BOT_TOKEN=あなたのDiscordボットトークン（MTIw...のような長い文字列）
+PORT=3000
 NODE_ENV=production
 ```
 
+**注意：** 
+- `N8N_WEBHOOK_URL`と`N8N_X_POST_WEBHOOK_URL`は後でn8n設定後に追加します
+- トークンの前後にスペースを入れないよう注意！
+
+5. **「Save」または「Add」をクリック**
+
+### 4-4. デプロイ状況の確認
+
+![Railwayログ確認](画像を挿入予定)
+
+1. **「Deployments」タブをクリック**
+2. **最新のデプロイメントをクリック**
+3. **「View Logs」でログを確認**
+4. **成功メッセージを確認：**
+   ```
+   Logged in as YourBotName#1234!
+   HTTP server listening on port 3000
+   ```
+
+このメッセージが表示されたら、Botは正常に起動しています！
+
+### 4-5. よくあるエラーと解決法
+
+#### ❌ エラー：「Cannot find module 'discord.js'」
+**原因：** package.jsonが正しくアップロードされていない
+**解決法：**
+- GitHubリポジトリにpackage.jsonがあるか確認
+- Railwayで「Redeploy」をクリック
+
+#### ❌ エラー：「TOKEN_INVALID」
+**原因：** Discord Botトークンが間違っている
+**解決法：**
+1. Discord Developer Portalでトークンを再生成
+2. Railway Variablesで`DISCORD_BOT_TOKEN`を更新
+3. 自動的に再デプロイされる
+
+#### ❌ エラー：「Missing Access」
+**原因：** Botの権限不足
+**解決法：**
+- Discord Developer PortalでIntentsをすべてONに
+- Botを一度サーバーから削除して再招待
+
+### 4-6. 料金について
+
+**Railwayの料金体系：**
+- 月額$5の無料クレジット付き
+- Discord Botなら無料枠で十分運用可能
+- 超過しても月額$5程度
+
+**💡 節約のコツ：**
+- 開発中は「Remove」で一時停止
+- ログ出力を最小限に
+- 不要な処理を削減
+
+### 4-7. 自動デプロイの設定
+
+**GitHubにプッシュすると自動的に更新される！**
+
+1. コードを修正
+2. GitHubにプッシュ
+   ```bash
+   git add .
+   git commit -m "Update bot features"
+   git push
+   ```
+3. Railwayが自動的に新しいコードをデプロイ
+
 ---
 
-## 🚀 STEP 3: Railway無料ホスティング設定（15分）
-
-### 3-1. Railwayアカウント作成
-
-![Railway設定画面](画像を挿入予定)
-
-1. **[Railway.app](https://railway.app)でアカウント作成**
-2. **GitHubアカウントでログイン**
-3. **「New Project」をクリック**
-4. **「Empty Project」を選択**
-
-### 3-2. プロジェクトのデプロイ
-
-1. **「GitHub Repo」を選択**
-2. **Botコードをアップロードしたリポジトリを選択**
-3. **自動デプロイが開始される**
-
-### 3-3. 環境変数の設定
-
-1. **プロジェクトの「Variables」タブを開く**
-2. **以下を設定：**
-   ```
-   DISCORD_BOT_TOKEN = 先ほど取得したトークン
-   NODE_ENV = production
-   ```
-3. **「N8N_WEBHOOK_URL」は後でn8n設定後に追加**
-
----
-
-## 🔧 STEP 4: n8nワークフロー設定（45分）
+## 🔧 STEP 5: n8nワークフロー設定（45分）
 
 ### 4-1. n8nアカウント作成
 
