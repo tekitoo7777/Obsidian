@@ -91,16 +91,69 @@ Discord BotはDiscordで📝や🐤リアクションを検知するために必
 
 ## ⚙️ STEP 2: Discord Botコードの準備
 
-### 2-1. Botコードの取得
+### 2-1. AIを使ってBotコードを生成する
 
-実際に動作しているBotのコードを使用します：
+本当は、Githubかこちらにコードを貼って、皆さんにお伝えできればよいのですが、自分が非エンジニアであり、いまいちコードのことを理解しきれていないので、こちらのコードについては、皆さんでAIに聞いて作ってもらえたらと思います。
 
-#### `package.json`
+
+#### 📝 AIへの依頼文
+
+以下のプロンプトでお願いしたら作ってくれると思います。
+
+```
+Discordを使って、リアクションで自動化するBotを作ってください。
+
+【必要な機能】
+1. Discordメッセージに絵文字リアクションが付いたら検知
+2. 📝リアクション：n8nのWebhookにメッセージデータを送信し、成功したら✅を付ける
+3. 🐤リアクション：別のn8nのWebhookにメッセージデータを送信する
+4. n8nから返ってきた投稿文をDiscordに表示する機能
+
+【技術仕様】
+- Node.js 16以上
+- discord.js v14
+- axiosでHTTPリクエスト
+- expressでWebサーバー（n8nからの返信受信用）
+- dotenvで環境変数管理
+
+【作成してほしいファイル】
+1. package.json（依存関係）
+2. index.js（メインコード）
+3. .env.example（環境変数のサンプル）
+
+【環境変数】
+- DISCORD_BOT_TOKEN：Discordボットトークン
+- N8N_WEBHOOK_URL：📝用のWebhook URL
+- N8N_X_POST_WEBHOOK_URL：🐤用のWebhook URL
+- PORT：Expressサーバーのポート（デフォルト3000）
+
+【Webhookに送信するデータ】
+- messageId
+- channelId
+- content（メッセージ内容）
+- authorUsername（投稿者名）
+- timestamp
+- messageUrl
+
+【Expressエンドポイント】
+POST /draft-post
+受信：{ channelId, draftContent }
+処理：指定チャンネルにコードブロックで投稿文を送信
+
+コメントは日本語で書いてください。
+エラーハンドリングも含めてください。
+```
+
+### 2-2. AIが生成してくれるファイル
+
+AIは以下の3つのファイルを作成してくれます：
+
+#### 📦 `package.json`（必要なパッケージ一覧）
 ```json
 {
   "name": "discord-n8n-bot",
   "version": "1.0.0",
-  "description": "Discord bot that sends reaction events to n8n webhook",
+  "description": "Discord bot for n8n automation",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -110,93 +163,91 @@ Discord BotはDiscordで📝や🐤リアクションを検知するために必
     "discord.js": "^14.14.1",
     "dotenv": "^17.2.1",
     "express": "^5.1.0"
-  },
-  "engines": {
-    "node": ">=16.0.0"
   }
 }
 ```
 
-#### `index.js`（メインのBotコード）
-```javascript
-require('dotenv').config();
+#### 🤖 `index.js`（メインのBotコード）
+AIが以下の機能を含むコードを生成してくれたらOKです：
+- Discord接続処理
+- リアクション検知
+- n8nへのデータ送信
+- 返信の受信と表示
+- エラー処理
 
-const { Client, GatewayIntentBits } = require('discord.js');
-const axios = require('axios');
-const express = require('express');
+#### 🔐 `.env.example`（環境変数のテンプレート）
+```bash
+# Discord Bot Token
+DISCORD_BOT_TOKEN=ここにトークンを入力
 
-// Discord クライアントの初期化
-const client = new Client({
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.GuildMessageReactions,
-    GatewayIntentBits.MessageContent
-  ]
-});
+# n8n Webhook URLs
+N8N_WEBHOOK_URL=こちらに📝リアクション用のn8nワークフローのWEBHOOKURLを入力
+N8N_X_POST_WEBHOOK_URL=こちらに🐤リアクション用のn8nワークフローのWEBHOOKURLを入力
 
-// 環境変数からWebhook URLを取得
-const N8N_WEBHOOK_URL = process.env.N8N_WEBHOOK_URL;
-const N8N_X_POST_WEBHOOK_URL = process.env.N8N_X_POST_WEBHOOK_URL;
+# Server Port
+PORT=3000
+```
 
-// Bot起動時の処理
-client.once('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
+### 2-3. コード生成後の手順
 
-// リアクション追加時の処理
-client.on('messageReactionAdd', async (reaction, user) => {
-  if (user.bot) return;
-  if (reaction.partial) await reaction.fetch();
-  if (reaction.message.partial) await reaction.message.fetch();
-  
-  const message = reaction.message;
-  const emoji = reaction.emoji.name;
+#### 1️⃣ プロジェクトフォルダを作成
+```bash
+mkdir discord-bot
+cd discord-bot
+```
 
-  // 📝 リアクション：Obsidian保存用
-  if (emoji === '📝' && N8N_WEBHOOK_URL) {
-    try {
-      const webhookData = {
-        event: 'MESSAGE_REACTION_ADD',
-        data: {
-          messageId: message.id,
-          channelId: message.channel.id,
-          guildId: message.guild?.id,
-          userId: user.id,
-          username: user.username,
-          content: message.content,
-          authorId: message.author.id,
-          authorUsername: message.author.username,
-          timestamp: message.createdTimestamp,
-          emoji: emoji,
-          messageUrl: message.url
-        }
-      };
-      await axios.post(N8N_WEBHOOK_URL, webhookData);
-      await message.react('✅');
-    } catch (error) {
-      console.error('Error sending webhook for 📝:', error.message);
-      await message.react('❌');
-    }
-  } 
-  // 🐤 リアクション：X投稿文生成用
-  else if (emoji === '🐤' && N8N_X_POST_WEBHOOK_URL) {
-    try {
-      await axios.post(N8N_X_POST_WEBHOOK_URL, {
-        event: 'X_POST_REQUEST',
-        data: {
-          messageId: message.id,
-          channelId: message.channel.id,
-          content: message.content,
-          authorUsername: message.author.username
-        }
-      });
-    } catch (error) {
-      console.error('Error sending webhook for 🐤:', error.message);
-      await message.channel.send(`❌ n8nワークフローの呼び出しに失敗しました: ${error.message}`);
-    }
-  }
-});
+#### 2️⃣ AIが生成したファイルを保存
+- `package.json`
+- `index.js`
+- `.env.example`を`.env`にリネームして保存
+
+#### 3️⃣ 依存パッケージをインストール
+```bash
+npm install
+```
+
+#### 4️⃣ 環境変数を設定
+`.env`ファイルを開いて：
+- `DISCORD_BOT_TOKEN`に先ほど取得したトークンを入力
+- 他のURLは後で設定
+
+### 2-4. 💡 AIへの追加リクエスト例
+
+もし追加機能が欲しい場合：
+
+**「処理中の表示を追加したい」**
+```
+生成されたコードに以下を追加してください：
+- リアクション処理中は⏳を表示
+- 処理完了後に⏳を削除
+```
+
+**「ログを詳しくしたい」**
+```
+以下のログを追加してください：
+- 受信したリアクションの詳細
+- Webhookへの送信データ
+- エラーの詳細情報
+すべて日本語で出力してください
+```
+
+**「特定のチャンネルのみで動作させたい」**
+```
+特定のチャンネルIDでのみ動作するように修正してください：
+対象チャンネルID: 1234567890
+```
+
+### 2-5. ✅ コード確認チェックリスト
+
+AIが生成したコードを確認：
+
+- [ ] Discord.js v14の構文を使用しているか
+- [ ] 環境変数を`.env`から読み込んでいるか
+- [ ] リアクションイベントを検知できるか
+- [ ] n8nへのWebhook送信があるか
+- [ ] Expressサーバーが含まれているか
+- [ ] エラー時の処理があるか
+- [ ] 日本語コメントが含まれているか
 
 // Express サーバー（n8nからの返信受信用）
 const app = express();
