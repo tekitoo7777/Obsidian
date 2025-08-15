@@ -39,13 +39,13 @@
 - [ ] **Railwayアカウント** - Discord Bot無料ホスティング
 
 **💰 料金について：**
-Railwayが月5ドル。n8nをセルフホストするために、ホスティンガーというサーバー管理サイトに月15ドルほど必要です。ただ、本来、n8nを使うのに、月20ドルでワークフローが20個までしか作れないことを考えると、無限にワークフローを作れるので、お得です。
+Railwayが月5ドル。n8nをセルフホストするために、ホスティンガーというサーバー管理サイトに月15ドルほど必要です。ただ、本来、n8nを使うのに、月20ドルでワークフローが20個までしか作れないことを考えると、無限にワークフローを作れるのでお得だと思って課金しています。
 
 ---
 
 ##  STEP 1: Discord Botの作成と設定
 
-Discord BotはDiscordで
+Discord BotはDiscordで📝や🐤リアクションを検知するために必要です。
 
 ### 1-1. Discord Developer Portalでアプリケーション作成
 
@@ -85,11 +85,11 @@ Discord BotはDiscordで
    - ✅ Read Messages/View Channels
    - ✅ Read Message History
    - ✅ Add Reactions
-4. **生成されたURLでBotを招待**
+4. **生成されたURLをブラウザで開きBotを入れたいサーバー招待**
 
 ---
 
-## ⚙️ STEP 2: Discord Botコードの準備（15分）
+## ⚙️ STEP 2: Discord Botコードの準備
 
 ### 2-1. Botコードの取得
 
