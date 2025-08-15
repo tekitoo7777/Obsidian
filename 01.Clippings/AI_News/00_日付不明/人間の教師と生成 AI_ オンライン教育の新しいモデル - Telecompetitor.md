@@ -1,0 +1,19 @@
+# 人間の教師と生成 AI: オンライン教育の新しいモデル - Telecompetitor
+
+作成日: 2025-05-19 19:19:19
+
+## プロパティ
+
+- 日付: 2024-10-09
+- リンク: https://www.telecompetitor.com/human-teachers-plus-generative-ai-a-new-model-for-online-education/
+
+A combination of short-form video lessons created by human experts and videos created by generative AI is the model that Numerade hopes will change online education for students across the country and the world.That’s what The Numerade model is fairly simple. The company partners with “more than 60,000 human educators who created millions of video tutorials.” These videos are short and easily digestible — Ma compared the approach to TikTok, describing shorter videos as “aligned with how students learn.”The educational content of the videos is supplemented with videos created via “If a student needs help… they can come to our site and ask questions. We provide a video tutorial created by an educator — or created by GenAI based on the educator’s previous videos, to make sure they are pedagogically aligned.”Ma said that by tracking how students interact with the educational videos — at what point videos are paused, or which segments are re-watched — generative AI can understand “where that student is on their learning journey.” Numerade can then recommend additional content, sometimes created by generative AI, to help make sure students understand the content.“We’re trying to make the AI videos more like the human educator videos. [The AI videos] have someone walking through the tutorial — the actual step-by-step solution — with a voiceover going through the problem and getting to the concept and the answer.”Eventually, Ma hopes that Numerade’s human educator partners may have their own likenesses, including their unique teaching styles, used in generative AI content.### Generative AI for Rural Online Education
+While Ma did not have specific data on the number of rural students using Numerade, he said that “35 to 40% of our user base in America is in non-metropolitan areas.” He stressed that anywhere a student can access the internet, they can use Numerade.Ma said that about 50% of Numerade’s users are in K-12 grades — mostly middle and high school — and 50% are college students. Numerade strongly focus on STEM subjects (science, technology, engineering, and mathematics), finding that students often start having challenges with these subjects in middle school. “A lot of students leave that track during middle school because they lack the support.”Ma said that, with the rise of new generative AI technologies in the past few years, Numerade’s ability to leverage their human-made videos for educational generative AI content has grown. The company now has what they call the “NumerAI LLM” (large language model), which they have created using “open and closed LLMs, and large and small LLMs.”The accuracy of AI-created content is an ongoing concern for Numerade. Ma said they ensure accuracy by using only best-of-breed LLMs. They also rely on their network of human educators to make sure both the accuracy of the generative AI content and the educational pedagogy are still at the highest levels of quality.“It’s a continuous process,” Ma said.この記事は、オンライン教育プラットフォームNumeradeの新しいアプローチについて説明しています。主なポイントは以下の通りです：- 人間の教師が作成した短い動画レッスンと生成AIが作成した動画を組み合わせたモデルを採用
+- 60,000人以上の教育者とパートナーシップを結び、数百万の動画チュートリアルを作成
+- 生成AIを使用して、学生の質問に対する追加のコンテンツを作成
+- 学生の動画視聴行動を追跡し、個別の学習ニーズに合わせたコンテンツを提供
+- STEM科目に重点を置き、中学生から大学生までをターゲットに
+- 農村部を含む非都市部の学生にもサービスを提供
+- 独自の大規模言語モデル「NumerAI LLM」を開発
+- 人間の教育者と協力して、AI生成コンテンツの正確性と教育の質を確保
+このモデルは、人間の専門知識とAI技術を組み合わせることで、オンライン教育の質と個別化を向上させることを目指しています。

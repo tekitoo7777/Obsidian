@@ -1,0 +1,16 @@
+# 学校でAIを許可すべきでしょうか?
+
+作成日: 2025-05-19 19:19:37
+
+## プロパティ
+
+- 日付: 2024-09-25
+- リンク: https://www.msureporter.com/2024/09/24/should-a-i-be-allowed-in-school/
+
+![image_20250519_191937.png](../assets/image_20250519_191937.png)
+As technology advances, education can easily get swept up in the debate of “right or wrong” when it comes to certain products and softwares. With newer developments coming out faster than curriculum can be developed, it’s important to get the correct knowledge out to students and faculty in a timely manner without sacrificing academic integrity.First, we have to consider how many fields artificial intelligence impacts. It shows great benefits to those working in any computer or data driven fields as it allows students and faculty to actively think about how technology fits into the current world. It also encourages students to think about where society goes from here on future technological developments. It can also be helpful to the healthcare field, specifically transcriptions, remotely care or even helping generate examples such as in speech therapy.At the same time, there are several fields where it’s more difficult to see the positives of AI use, such as marketing research, manufacturing and writing. For those who have worked hard and spent thousands of dollars on a degree they thought would be beneficial, it’s a tremendous slap in the face. Not every person dreams of going into the tech field and to force people into those fields when their dream career has been sabotaged by technology is disrespectful.School districts also have to consider what artificial intelligence should be incorporated into classrooms and which shouldn’t. Teachers have been weary since ChatGPT was introduced back in the fall of 2022, allowing students to request the website to give them answers to homework questions and to write essays for them. The biggest risk it poses to teachers is academic integrity. Students can easily change a word or two and submit their assignment, claiming they didn’t use the aid of it at all. It becomes an even greater challenge when students can find loopholes for using artificial intelligence as, despite the current artificial intelligence checking websites, technological problems are arising faster than their solutions.We also have to consider how using artificial intelligence impacts the way students critically think. While it can improve the efficacy in which students accomplish projects and tasks, it can also reduce a student’s ability to think critically. Students are given answers without taking the proper time to think about their own ideas. We would have to ask ourselves if short-term efficacy outweighs long-term critical thinking skills and original thought processes.When it comes to using artificial intelligence in schools, we should be considerate of where and when it’s being applied. It can help enhance education in the appropriate settings, but can quickly head south if it generates inappropriate responses or becomes detrimental to others future career paths. While technology is here to stay, it’s up to us to determine how we use it.
+この記事は、学校でのAI使用に関する議論を要約しています：- AIは技術や医療分野で有益である一方、マーケティングや製造業などの分野では課題がある
+- ChatGPTなどのAIツールは学問的誠実性に関する懸念を引き起こしている
+- AIは効率を向上させる可能性があるが、批判的思考能力を低下させる可能性もある
+- 学校でのAI使用は慎重に検討し、適切な場面で活用すべきである
+結論として、テクノロジーは不可避であるが、その使用方法を慎重に決定する必要があります。

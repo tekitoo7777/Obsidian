@@ -1,0 +1,16 @@
+# ナイジェリアの黒板からチャットボットまで: 教育のための生成型 AI の先駆者となる 7 つの教訓
+
+作成日: 2025-05-19 19:19:38
+
+## プロパティ
+
+- 日付: 2024-09-24
+- リンク: https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-in-Nigeria
+
+![image_20250519_191938.png](../assets/image_20250519_191938.png)
+Students participate in an AI after-school program in Edo, Nigeria. Copyright: SmartEdge/World BankIn 1984, educational psychologist Benjamin Bloom demonstrated that students receiving one-on-one tutoring vastly outperformed their peers confined to the traditional classroom setting. Despite these proven benefits, the prohibitive cost of providing individualized attention to every student has remained a significant barrier for most families.Forty years on, with the rapid advent of generative artificial intelligence, many countries have an opportunity to reach the ideal of one-to-one tutoring. Today, large language models (LLMs) can interact with students personably and adapt to their learning needs.While recent studies highlight AI's potential to enhance learning outcomes, they often fall short in two key areas. First, they focus predominantly on developed countries. Second, they rely on specialized but unaffordable software. However, Leveraging generative AI in NigeriaBuilding on this potential, a recent experiment in Edo State, Nigeria, represents one of the pioneering efforts to leverage free generative AI tools to enhance educational outcomes in a context where it’s most needed.Over June and July 2024, 800 first-year senior secondary students attended after-school English classes in computer labs twice a week. Each session began with the teacher introducing the week's topic, followed by students interacting with Microsoft Copilot, a generative AI tool powered by ChatGPT, to master the selected topics comprising both grammar and writing tasks. Acting as “orchestra conductors” of the pilot, the teachers guided students in using the LLM, starting each session with a suggested prompt. As the students interacted with the AI, the teachers mentored them, offering guidance and additional prompts. They also led brief reflection exercises at the end of each session.Note: The video production was directed by Chuka J. Agu.The PIONEER acronym summarizes the initial lessons learned during the implementation:1. Prioritizing students.2. Inspiring teachers.3. Optimizing immersion.4. Nurturing necessary infrastructure.5. Empowering participants with relevant materials.6. Enhancing implementation.7. Reducing AI risks. These seven PIONEER lessons learned from the Edo State pilot offer valuable insights into the future of AI in education, particularly in resource-constrained environments.The team extends its deep appreciation to the Honorable Commissioner for Education of Edo State, Dr. Joan Osa Oviawe, and the Acting Director of School Support Services of the Edo State Secondary Education Board, Jennifer Aisuan, for their exceptional leadership and collaboration throughout the implementation of the pilot.To receive weekly articles, 記事要約:この記事は、ナイジェリアのエド州で実施された生成型AIを活用した教育実験について報告しています。主なポイントは以下の通りです：- 800人の高校1年生を対象に、放課後の英語クラスでMicrosoft Copilotを使用
+- 生徒の学習意欲が高まり、教師もAIの可能性を認識
+- インフラ整備（電力・インターネット）の重要性が浮き彫りに
+- 教師と生徒向けのツールキット開発や、適切な指導が効果的
+- AIのリスク（過度の依存、誤った情報生成）への対策も必要
+実験は低コストで実施され、拡張性が高いことが示唆されましたが、その影響を測定することが今後の課題となっています。

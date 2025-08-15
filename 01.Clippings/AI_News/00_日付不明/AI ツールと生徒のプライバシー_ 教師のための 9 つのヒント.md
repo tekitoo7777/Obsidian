@@ -1,0 +1,41 @@
+# AI ツールと生徒のプライバシー: 教師のための 9 つのヒント
+
+作成日: 2025-05-19 19:15:48
+
+## プロパティ
+
+- 日付: 2025-01-03
+- リンク: https://www.yahoo.com/tech/ai-tools-student-privacy-9-173000065.html
+
+![image_20250519_191548.png](../assets/image_20250519_191548.png)
+This article was originally published in Since the release of ChatGPT to the public in November 2022, the number of AI tools has skyrocketed, and there are now many advocates for the potential changes AI can cause in education.But districts have not been as fast in providing teachers with training. As a result, many are experimenting without any guidance, an AdvertisementTo learn about how teachers and other educators can protect student data and abide by the law when using AI tools, Chalkbeat consulted documents and interviewed specialists from school districts, nonprofits, and other groups. Here are nine suggestions from experts.Education is at a Crossroads: Help Us Illuminate the Path Forward.## Consult with your school district about AI
+Navigating the details about the privacy policies in each tool can be challenging for a teacher. Some districts list tools that they have vetted or with which they have contracts.Related### 50 Years after FERPA’s Passage, Ed Privacy Law Needs an Update for the AI Era
+Give preference to these tools, if possible, and check if your district has any recommendations about how to use them. When a tool has a contract with a school or a district, they are supposed to protect students’ data and follow national and state law, but always check if your district has any recommendations on how to use the tool. Checking with your school’s IT or education technology department is also a good option.AdvertisementIt is also essential to investigate if your school or district has guidelines or policies for the general use of AI. These documents usually review privacy risks and ethical questions.Related### New Survey Says U.S. Teachers Colleges Lag on AI Training. Here are 4 Takeaways
+## Check for reviews about AI platforms’ safety
+Organizations like Be careful when platforms say they comply with laws like the Family Educational Rights and Privacy Act, or FERPA, and the Children’s Online Privacy Protection Rule. According to the law, the school is ultimately responsible for children’s data and must be aware of any information it shares with a third party.## Study the AI platform’s privacy policy and terms
+The privacy policy and the terms of use should provide some answers about how a company uses the data it collects from you. Make sure to read them carefully, and look for some of the following information:Advertisement- What information does the platform collect?
+- How does the platform use the collected data? Is it used to determine which ads it will show you? Does it share data with any other company or platform?
+- For how long does it keep the collected data?
+- Is the data it collects used to train the AI model?
+The list of questions that Common Sense Media uses for their privacy evaluations is You should avoid signing up for platforms that collect a broad volume of data or that are not clear in their policies. One potential red flag: vague claims about “retaining personal information for as long as necessary” and “sharing data with third parties to provide services.”## Bigger AI platforms can be safer
+Big companies like OpenAI, Google, Meta, and others are under more scrutiny: NGOs, reporters, and politicians tend to investigate their privacy policies more frequently. They also have bigger teams and resources that allow them to invest heavily in compliance with privacy regulations. For these reasons, they tend to have better safeguards than small companies or start-ups.You still have to be careful. Most of these platforms are not explicitly intended for educational purposes, making them less likely to create specific policies regarding student or teacher data.## Use the tools as an assistant, not a replacement
+Related### Q&A: Putting AI In its Place in an Era of Lost Human Connection at School
+Even though these tools provide better results when you input more information, try to use them for tasks that don’t require much information about your students.AdvertisementAI tools can help provide suggestions on how to ask questions about a book, set up document templates, like an Individualized Educational Program plan or a behavioral assessment, or create assessment rubrics.Related### Why Robots Are Not Effective Tools for Supporting Autistic People
+But even tasks that can seem mundane can increase risks. For example, providing the tool with a list of students and their grades on a specific assignment and asking it to organize it in alphabetical order could represent a violation of student privacy.Related### Beyond Lesson Plans: AI Can Boost Teacher Creativity, Provide Classroom Advice
+## Turn on maximum privacy settings for AI platforms
+Some tools allow you to adjust your privacy settings. Look online for tutorials on the best private settings for the tool that you are using and how to activate them. Doing this does not necessarily make AI tools completely safe or compliant with student privacy regulations.## Never input personal information to AI platforms
+Even if you take all the steps above, do not input student information. Information that is restricted can include:- Personal information
+- Academic records
+This may be harder than it sounds.If teachers upload student work to a platform to get help with grading, for example, they should remove all identification, including the student’s name, and replace it with an alias or random number that can’t be traced back to the student. It’s also wise to ensure the students haven’t included any personal information, like their place of birth, where they live or personal details about their families, friends, religious or political inclination, sexual orientation, and club affiliations.One exception is for platforms approved by the school or the district and holding contracts with them.## Be transparent with others about using AI
+Communicate with your school supervisors, principal, parents, and students about when and how you use AI in your work. That way, everyone can ask questions and bring up concerns you may not know about.Related### Is AI in Schools Promising or Overhyped? Potentially Both, New Reports Suggest
+It is also a good way to model behavior for students. For example, if teachers ask students to disclose when they use AI to complete assignments, being transparent with them in turn about how teachers use AI might foster a better classroom environment.## If uncertain, ask AI platforms to delete information
+In some states, the law says platforms must delete users’ information if they request it. And some companies will delete it even if you aren’t in one of these states.Deleting the data may be challenging and not solve all of the problems caused by misusing AI. Some companies may take a long time to respond to deletion requests or find loopholes in order to avoid deleting it.The tips listed above come from the Additional help came from Calli Schroeder, senior counsel and global privacy counsel at the Electronic Privacy Information Center; Brandon Wilmart, director of educational technology at Moore Public Schools in Oklahoma; and Anjali Nambiar, education research manager at Learning ColliderThis story was originally published by Chalkbeat. Chalkbeat is a nonprofit news site covering educational change in public schools. Sign up for their newsletters at 【要約】この記事は、教育現場でAIツールを使用する際の学生のプライバシー保護に関する9つの重要なヒントを提供しています：1. 学区に相談：AIツールの使用について、学区の方針や推奨事項を確認する
+1. AIプラットフォームの安全性レビューを確認：Common Sense MediaやiKeepSafeなどの組織による評価を参照
+1. プライバシーポリシーと利用規約を精読：データ収集・使用・保持に関する方針を確認
+1. 大手AIプラットフォームの方が安全性が高い：より厳しい監視下にあり、プライバシー保護への投資も大きい
+1. AIを補助として使用し、代替としない：学生の個人情報を必要としない作業に限定して使用
+1. 最大限のプライバシー設定を有効化：利用するツールのプライバシー設定を最適化
+1. 個人情報を入力しない：学生の個人情報や学業記録は決して入力しない
+1. AI使用について透明性を保つ：管理者、保護者、学生に使用状況を明確に伝える
+1. 不安がある場合は情報の削除を依頼：プラットフォームに対して情報削除を要求する
+これらのガイドラインは、教育現場でAIを効果的かつ安全に活用するための実践的なフレームワークを提供しています。

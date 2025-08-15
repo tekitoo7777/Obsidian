@@ -1,0 +1,11 @@
+# 中国、小中学校でのAI教育を強化へ - CGTN
+
+作成日: 2025-05-19 19:17:15
+
+## プロパティ
+
+- 日付: 2024-12-04
+- リンク: https://news.cgtn.com/news/2024-12-03/China-to-enhance-AI-education-in-primary-secondary-schools-1z1Rq3cVj9K/p.html
+
+![image_20250519_191715.png](../assets/image_20250519_191715.png)
+A young girl is learning the basics of coding. /CFPChina will enhance artificial intelligence (AI) education for its younger generations to prepare them for the emerging technology era, according to the Ministry of Education.The ministry has called for efforts to explore approaches to AI education in primary and secondary schools, emphasizing the need to cultivate creativity, scientific interest and digital skills among students.Schools have been asked to establish related curriculums, incorporate AI into routine teaching content and conduct regular evaluations, according to a circular released by the ministry.Students are expected to gain hands-on experience with AI technologies in their early primary school years. As they progress to senior primary school grades and junior high school, they will focus on understanding and applying these technologies. In senior high school, students will engage in AI project creation and explore cutting-edge AI applications, according to the circular.An AI section will be added to a national smart education platform. The initiative, according to the ministry, aims to pool quality resources and enhance their accessibility.Authorities will encourage colleges, universities, research institutes and high-tech companies to open their AI labs and exhibition halls to primary and secondary school students.Minister of Education Huai Jinpeng has likened AI to a "gold key" for the education system, emphasizing its potential to shape the future of education while presenting both opportunities and challenges.In February, the country selected 184 schools as pilot bases to explore philosophies, models and programs in AI education, with the goal of developing exemplary cases and experience that can be promoted on a larger scale.More such educational bases will be established in the future, per the ministry circular.Source(s): Xinhua News Agency
